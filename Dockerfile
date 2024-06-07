@@ -16,3 +16,5 @@ EXPOSE 8080
 
 # Define our command to be run when launching the container
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
+
+
